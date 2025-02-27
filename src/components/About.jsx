@@ -7,23 +7,42 @@ const About = () => {
         <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
           <div className='sm:text-right pb-8 pl-4'>
             <p className='text-4xl font-bold inline border-b-4 border-pink-600'>
-              About
+              About 
             </p>
           </div>
           <div></div>
+        </div>
+
+        <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
+          <div className='sm:text-right text-4xl font-bold'>
+            <p>Hi. I'm Mahmmed Fareed, nice to meet you.</p>
+            <p className='text-lg font-normal mt-4 text-gray-400'>
+            I am passionate about building excellent software that improves the lives of those around me. 
+            I specialize in creating software for individuals, small businesses, and large enterprises.
+          </p>
+
           </div>
-          <div className='max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4'>
-            <div className='sm:text-right text-4xl font-bold'>
-              <p>Hi. I'm Sai Kumar, nice to meet you. Please take a look around.</p>
-            </div>
-            <div>
-              <p>I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. What would you do if you had
-              a software expert available at your fingertips?</p>  
-            </div>
+          <div>
+            <p className='text-2xl font-semibold pb-2 border-b-2 border-gray-500'>Education</p>
+            <ul className='mt-4 space-y-4'>
+              <li>
+                <p className='text-lg font-bold'>2022 - Current | B.Tech - Computer Science & Engineering</p>
+                <p className='text-gray-400'>Sasi Institute of Technology & Engineering - JNTUK</p>
+                <p className='text-gray-400'>CGPA: 8.3</p>
+              </li>
+              <li>
+                <p className='text-lg font-bold'>2020 - 2022 | Intermediate</p>
+                <p className='text-gray-400'>Sasi Junior College - BIEAP</p>
+                <p className='text-gray-400'>Percentage: 89%</p>
+              </li>
+              <li>
+                <p className='text-lg font-bold'>2019 - 2020 | 10th (SSC)</p>
+                <p className='text-gray-400'>Geetanjali E.M. School - SSC</p>
+                <p className='text-gray-400'>Percentage: 99%</p>
+              </li>
+            </ul>
           </div>
+        </div>
       </div>
     </div>
   );
