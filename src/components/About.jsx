@@ -17,8 +17,7 @@ const About = () => {
           <div className='sm:text-right text-4xl font-bold'>
             <p>Hi. I'm Mahmmed Fareed, nice to meet you.</p>
             <p className='text-lg font-normal mt-4 text-gray-400'>
-            I am passionate about building excellent software that improves the lives of those around me. 
-            I specialize in creating software for individuals, small businesses, and large enterprises.
+            As a B.Tech student in Computer Science, I am passionate about developing innovative software solutions that enhance everyday life. I specialize in building applications and systems that cater to individuals, small businesses, and large enterprises, continuously learning and applying new technologies.
           </p>
 
           </div>
